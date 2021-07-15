@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-size: sans-serif;
+    background: rgba(0, 0, 0, 0.4 ) url(bg.jpg);
+    box-shadow: 120px 100px 250px #000000 , inset -120px -100px 250px #000000;
+}
+
+.login-box{
+    width: 460px;
+    height: 600px;
+    background: #000;
+    color: #fff;
+     top: 64%;
+     left: 50%;
+     right: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-size: px;
+    position: relative;
+    left: 60px;
+    top: 70px;
+}
+form{
+    position: relative;
+    left: 60px;
+    top: 70px;
+
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input {
+    margin: 5px;
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+a {
+    position: relative;
+    left: 60px;
+    top: 70px;
+    font-size: 12px;
+    color: #fff;
+}
+.logo{
+    position: relative;
+}
